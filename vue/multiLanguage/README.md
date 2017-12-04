@@ -2,5 +2,5 @@
 
 用到的技术
 
-1. plugin
+1. plugin
 2. directive
