@@ -23,3 +23,7 @@ git rebase -i HEAD~3
 1. git format-patch xxxxxxxxxxxxx(commit id)
 2. git format-patch -n
 3. git format-patch commit-id-1 commit-id-2
+
+git apply --stat 0001-finish-react-main-concepts.patch 
+git apply --check 0001-finish-react-main-concepts.patch 
+git am --signoff < 0001-finish-react-main-concepts.patch

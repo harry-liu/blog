@@ -1,0 +1,24 @@
+From 272a175a8a0d67a92dee85ea7aa60682b80f06d1 Mon Sep 17 00:00:00 2001
+From: ke-liu <ke.liu@rea-group.com>
+Date: Tue, 7 Aug 2018 07:05:09 +0800
+Subject: [PATCH 1/2] finish react main concepts
+
+---
+ "react/\345\237\272\347\241\200/READE.md" | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git "a/react/\345\237\272\347\241\200/READE.md" "b/react/\345\237\272\347\241\200/READE.md"
+index 45fad10..3209036 100644
+--- "a/react/\345\237\272\347\241\200/READE.md"
++++ "b/react/\345\237\272\347\241\200/READE.md"
+@@ -1,7 +1,5 @@
+ #REACT 基础
+ 
+-##JSX
+-
+ 1. React是以ui逻辑驱动，不论是事件，状态，还是数据
+ 2. React把视图和逻辑放在一起，作为一个component
+ 3. 核心是component，不是template
+-- 
+2.15.2 (Apple Git-101.1)
+
