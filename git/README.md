@@ -24,9 +24,9 @@ git rebase -i HEAD~3
 2. git format-patch -n
 3. git format-patch commit-id-1 commit-id-2
 
-git apply --stat 0001-finish-react-main-concepts.patch 
-git apply --check 0001-finish-react-main-concepts.patch 
-git am --signoff < 0001-finish-react-main-concepts.patch
+1. git apply --stat 0001-finish-react-main-concepts.patch 
+2. git apply --check 0001-finish-react-main-concepts.patch 
+3. git am --signoff < 0001-finish-react-main-concepts.patch
 
 #直接更改某次提交
 
