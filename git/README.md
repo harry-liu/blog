@@ -1,5 +1,6 @@
 ##Git
 
+
 #merge
 
 1. 会产生一个新的commit
@@ -30,7 +31,7 @@ git rebase -i HEAD~3
 
 #直接更改某次提交
 
-1. git rebase XXX --interactive
+1. git rebase XXX^ --interactive
 2. git add
 3. git commit --amend
 4. git rebase --continue
