@@ -27,3 +27,19 @@ git rebase -i HEAD~3
 git apply --stat 0001-finish-react-main-concepts.patch 
 git apply --check 0001-finish-react-main-concepts.patch 
 git am --signoff < 0001-finish-react-main-concepts.patch
+
+#直接更改某次提交
+
+1. git rebase XXX --interactive
+2. git add
+3. git commit --amend
+4. git rebase --continue
+
+#将工作空间中的改动追加到某次提交上的步骤如下
+
+1. git stash
+2. git rebase XXX^ --interactive
+3. git stash pop
+4. git commit --amend
+5. git rebase --continue
+
