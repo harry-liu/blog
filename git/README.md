@@ -16,6 +16,7 @@
 #改变上一个commit
 git commit --amend
 
+test
 #改变多个commit
 git rebase -i HEAD~3
 
