@@ -1,6 +1,5 @@
 ##Git
 
-
 #merge
 
 1. 会产生一个新的commit
@@ -34,7 +33,7 @@ git rebase -i HEAD~3
 
 1. git rebase XXX^ --interactive
 2. git add
-3. git commit --amend
+3. git ci --amend
 4. git rebase --continue
 
 #将工作空间中的改动追加到某次提交上的步骤如下
@@ -42,6 +41,6 @@ git rebase -i HEAD~3
 1. git stash
 2. git rebase XXX^ --interactive
 3. git stash pop
-4. git commit --amend
+4. git ci --amend
 5. git rebase --continue
 
